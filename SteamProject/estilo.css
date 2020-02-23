@@ -1,0 +1,105 @@
+html{
+	font-size: 10px;
+}
+
+
+body{
+	background-color: #00A8E8;
+}
+
+h1,h2,h3,.menuItem{
+	background-color: #007EA7;
+}
+
+h1,h2,h3,li{
+	color: #0d0c0c;
+}
+
+h1,h2,h3,.titulo,#menu-wrapper{
+	text-align:center;
+}
+
+h1{
+	font-size: 5rem;
+}
+
+h3{
+	font-size:2.5rem;
+}
+
+p,li,.menuItem{
+	font-size: 2.0rem;
+}
+
+h1,h2,h3,#menu,.menuItem,footer{
+	margin:15px;
+}
+
+h2{
+	font-size: 3rem;
+}
+
+li{
+	list-style-type: none;
+}
+
+.menuItem{
+	display: inline;
+	padding:5px 15px 5px 15px;
+}
+
+.listaJogos{
+	float:left;
+	width:30%;
+}
+
+.minhaConta{
+	float:right;
+	width:70%;
+}
+
+#fotoPerfil{
+	float:left;
+	margin: 0px 10px 0px 15px;
+}
+
+#amigos-wrapper{
+	float:right;
+}
+
+#listaAmigos{
+	float: right;
+	display:flex;
+}
+
+#informacoesPerfil{
+	float:right;
+}
+
+#informacoes{
+	float:left;
+}
+
+footer{
+	clear:both;
+	font-size: 1.8rem;
+	border-top: solid black 1px;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:link{
+	color:#030303;
+}
+
+a:visited{
+	color:#030303;
+}
+
+a:hover{
+	/*color:#009fd9;*/
+	color:#ffffff;
+}
+
