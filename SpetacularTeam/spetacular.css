@@ -1,3 +1,64 @@
+/*  COLOR PALETTE http://paletton.com/#uid=10i0u0kv7w0j8DWopyzxBpdCpjR*/
+
+body{
+	background-color: #FF9867;
+}
+
+.navbar{
+	background-color: #FF5707;
+}
+
+/* ABOUT FONTS */
+html{
+	font-size: 15px;
+}
+
+body{
+	font-family: 'Graduate', cursive;
+	font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Graduate', cursive;
+ font-weight: 500;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+
+/* FLAG */
+
+
 .special{
 	border: 1px solid black;
+}
+
+/* GENERAL CLASSES*/
+
+.center-parent{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+
+/*  JUMBOTRON  */
+
+.jumbotron{
+	background-color: #FF7C3D;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+.jumbotron-description p{
+	font-size: 1.5rem;
+}
+
+.jumbotron-description h1{
+	font-size: 3.0rem;
 }
