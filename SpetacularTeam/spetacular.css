@@ -58,18 +58,49 @@ p{
 .jumbotron{
 	/*background-color: #FF7C3D;*/
 	border-radius: 10px;
-	margin-top: 10px;
+	margin-top: 20px;
 	background-image: url("https://images.unsplash.com/photo-1512736912-cd9db1d90b72?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=752&q=80");
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
 
+.jumbotron picture img {
+		justify-content: center;
+		align-content: center;
+		text-align: center;
+	}
+
+@media (max-width: 767px){
+	.jumbotron{
+		background-image: none;
+		background-color: #FF7C3D;
+	}
+
+	.jumbotron picture img{
+		height: 200px;
+	}
+}
+
+.jumbotron-description p,h1{
+	color: #000112;
+}
+
 .jumbotron-description p{
-	font-size: 1.5rem;
+	font-size: 2.0rem;
 }
 
 .jumbotron-description h1{
 	font-size: 3.0rem;
+}
+
+@media (max-width: 341px){
+	.jumbotron h1{
+		font-size: 2.0rem;
+	}
+
+	.jumbotron p{
+		font-size: 1.5rem;
+	}
 }
 
 .jumbotron-description p,h1{
