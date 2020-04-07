@@ -78,10 +78,17 @@ p{
 	align-items: center;
 	justify-content: center;
 	text-align: center;
+	border: solid 2px #FF7C3D;
+	border-radius: 10px;
 }
 
 div[class="card-body"] p,a{
 	text-align: center;
+}
+
+.matches{
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 
