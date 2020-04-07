@@ -39,15 +39,18 @@ p{
 	border: 1px solid black;
 }
 
-/* GENERAL CLASSES*/
+/* GENERAL CLASSES */
 
-.center-parent{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
+.btn{
+	background-color: #FF7C3D;
+	border-color: #FF7C3D;
 }
+
+.btn:hover{
+	background-color: #FF5707;
+	border-color: #FF5707;
+}
+
 
 
 /*  JUMBOTRON  */
@@ -71,12 +74,19 @@ p{
 .card{
 	margin: 10px;
 	flex-grow: 1;
+	background-color: #FF9867;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
 }
 
 div[class="card-body"] p,a{
 	text-align: center;
 }
 
-.matches{
-	
+
+/* Footer */
+
+footer{
+	background-color:#FF5707;
 }
