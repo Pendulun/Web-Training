@@ -15,6 +15,7 @@ html{
 	font-size: 15px;
 }
 
+
 body{
 	font-family: 'Graduate', cursive;
 	font-weight: 300;
@@ -22,8 +23,9 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6 {
- font-family: 'Graduate', cursive;
- font-weight: 500;
+	font-family: 'Graduate', cursive;
+	font-weight: 500;
+	margin-bottom: 15px;
 }
 
 p{
@@ -125,13 +127,16 @@ div[class="card-body"] p,a{
 }
 
 .matches{
-	margin-top: 10px;
-	margin-bottom: 10px;
+	padding: 30px;
 }
 
 
 /* Footer */
 
 footer{
+	position: relative;
 	background-color:#FF5707;
+	top:100%;
 }
+
+
