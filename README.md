@@ -13,9 +13,11 @@ Right now, they are very simple and amateur projects because I'm still learning 
     functionality then links to my own and my friends steam accounts.</p>
     <p>The main objective of this one was to train on the layout division and to understand color schemes/palletes. I do have some notion on text-fonts but I didn't want to change or add any font with external ones. Maybe sometime I'll do it.</p>
     </dd>
-   <dt> Spetacular Team (In progress) </dt>
+   <dt> Spetacular Team </dt>
     <br>
     <dd> <p> This project's goal is to make a fictional team homepage. The team is called Spetacular Esporte Clube created by me. The team's logo was also created by me using Inkscape.</p>
-        <p> This time, I'll try to use what I've learned so far in HTML, CSS and Bootstrap 4, still no JavaScript.</p>
+        <p> This time, I tried to use what I've learned so far in HTML, CSS and Bootstrap 4, still no JavaScript.</p>
+        <p> It was great fun to create the 4 football team's logos in Inkscape. I think that I learned alot about the bootstrap grid system in this and was surprised of that the my main difficulty was to get the footer to the rigth place haha.</p>
+        <p> I'm not going to finish all the other pages aimed to the rest of the menu bar because it would get somewhat repetetive and I've already done what I meant to do. </p>
   </dd>
 </dl>
