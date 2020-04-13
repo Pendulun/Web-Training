@@ -1,15 +1,10 @@
 /*  COLOR PALETTE http://paletton.com/#uid=10i0u0kv7w0j8DWopyzxBpdCpjR*/
 
-body{
-	/*background-color: #FF9867;*/
-	background-color: white;
-}
-
 .navbar{
 	background-color: #FF5707;
 }
 
-/* ABOUT FONTS */
+/* GENERAL SETTINGS */
 
 html{
 	font-size: 15px;
@@ -20,6 +15,20 @@ body{
 	font-family: 'Graduate', cursive;
 	font-weight: 300;
 	color: #000000;
+	background-color: white;
+	min-height: 100vh;
+	position:relative;
+}
+
+main{
+	padding-bottom: 22px;
+}
+
+footer{
+	background-color:#FF5707;
+    margin-top: 30px;
+    position: absolute;
+    bottom:0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -41,7 +50,7 @@ p{
 	border: 1px solid black;
 }
 
-/* GENERAL CLASSES */
+/* BUTTONS */
 
 .btn{
 	background-color: #FF7C3D;
@@ -52,8 +61,6 @@ p{
 	background-color: #FF5707;
 	border-color: #FF5707;
 }
-
-
 
 /*  JUMBOTRON  */
 
@@ -129,14 +136,3 @@ div[class="card-body"] p,a{
 .matches{
 	padding: 30px;
 }
-
-
-/* Footer */
-
-footer{
-	position: relative;
-	background-color:#FF5707;
-	top:100%;
-}
-
-
