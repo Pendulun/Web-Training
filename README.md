@@ -5,7 +5,7 @@ Right now, they are very simple and amateur projects because I'm still learning 
 <h2>Projects</h2>
 
 <dl>
-  <dt> Steam Project </dt>
+  <dt><a href="./SteamProject/pagina.html"> Steam Project</a> </dt>
     <br>
     <dd> <p>This is sort of a home page of my steam account with games that I own sorted by categories.
     In addition, there's some information about my account with my best friends.</p>
